@@ -25,9 +25,15 @@ public class ProductOrderMain {
 		cola.quantity = 2;
 		productOrders[2]=cola;
 		
+		int sum = 0;
+		
 		for(ProductOrder product:productOrders) {
-			System.out.println("상품명: "+ product.productName + "가격: " + product.price + "수량: " + product.quantity);
+			System.out.println("상품명: "+ product.productName + " 가격: " + product.price + " 수량: " + product.quantity);
+		    sum += product.price * product.quantity;
 		}
+		
+		
+		System.out.println("총 결제금액: " + sum);
 		
 		
 		
