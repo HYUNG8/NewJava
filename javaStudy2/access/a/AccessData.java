@@ -1,6 +1,6 @@
 package access.a;
 
-public class AccessDate {
+public class AccessData {
 	
 	public int publicField;
 	
